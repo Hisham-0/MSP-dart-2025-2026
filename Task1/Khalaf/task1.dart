@@ -3,31 +3,29 @@ String rps(String p1, String p2) {
 
   int sub = p1.length - p2.length;
 
+
   if(sub == 0){
-    print("Draw!");
+    return "Draw!";
 
   }else if(sub.abs() == 4){
     if(sub < 0){
-      print("Player 1 won!");
+      return "Player 1 won!";
     }else{
-      print("Player 2 won!");
+      return "Player 2 won!";
     }
   }else {
     if(sub > 0){
-      print("Player 1 won!");
+      return "Player 1 won!";
     }else{
-      print("Player 2 won!");
+      return "Player 2 won!";
     }  
   }
-
-
-  return " ";
 }
 
 //* Problem 2
 int getCount(String inputStr) {
   
-    int vowels = 0;
+  int vowels = 0;
   int spaces = 0;
 
   inputStr = inputStr.toLowerCase();
@@ -40,14 +38,13 @@ int getCount(String inputStr) {
     }
   }
 
-  print("$inputStr -> $vowels");
   if(spaces == 0){
     print("No Spaces In The String");
   }else{
     print("$spaces Spaces");
   }
 
-  return -1;
+  return vowels;
 }
 
 //* problem 3 (optional)
@@ -56,6 +53,7 @@ int duplicateCount(String text) {
   Map <String , int> dublicated = {};
 
   text = text.toLowerCase();
+  text = text.replaceAll(" ", "");
   int result=0;
 
   for(String a in text.split('')){
@@ -66,11 +64,11 @@ int duplicateCount(String text) {
     }
   }
 
-  dublicated.removeWhere((key, value) => value ==0);
+  dublicated.removeWhere((key, value) => value == 0);
 
   result = dublicated.length;
 
   print("\"$text\"  => $result");
 
-  return -1;
+  return result;
 }
