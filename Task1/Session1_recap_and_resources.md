@@ -355,7 +355,7 @@ void greet(String name){
 
 if we let the function without return type, dart will consider it as `dynamic`
 ```
-dynamic greet(String name){
+greet(String name){
     print('Hello, $name!');
 }   
 ```
