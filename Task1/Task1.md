@@ -53,12 +53,15 @@ The input string will consist of lower & upper case letters and/or spaces.
 
 > **Note** : if the string consist with spaces print number of spaces , if not print "No Spaces In The String".
 
-Example
+Example (only return integer & use `print()` for spaces)
 
 ```
-"abcdEf" -> 2 + "No Spaces In The String"
-"Computer science " -> 6 + 2 spaces
-"Moon Light" -> 3 + 1 space
+"abcdEf" -> 2
+"No Spaces In The String"
+"Computer science " -> 6
+2 spaces
+"Moon Light" -> 3
+1 space
 ```
 
 ## Problem 3 (optional)
