@@ -19,7 +19,7 @@
    git commit -m "your massage"
    git push
    ```
-> **Note:** Dont' forget to login with the following command `git config --global user.email "your github email"`.
+> **Note:** Don't forget to login with the following command `git config --global user.email "your github email"`.
 
 > **Note:** Don't forget to browse your file first before you follow step number 8.
 
