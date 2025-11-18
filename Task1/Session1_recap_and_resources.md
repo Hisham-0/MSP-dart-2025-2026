@@ -1,5 +1,6 @@
 # Resources
 - [Dart from Wael Abo Hamza](https://youtube.com/playlist?list=PL93xoMrxRJIutlMCImcV3CYMmjS0MmlWL&si=Wp9PMTXKN27t9x2Q)
+    > **Note:** if a video is talking about a topic we didn't mention in the session, then ignore it probabilty will be discussed later
 - [Git and Github Tutorial from Elzero Web School](https://youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF&si=tds1tsZzjdAdPR3O)
     > **Note:** No need to watch the full play-list, just watch the sufficient amount to be able to use Git and GitHub
 - [Slides for Revision](https://cisasuedu-my.sharepoint.com/:p:/g/personal/2023170400_cis_asu_edu_eg/EVIAgIvwUshJncibtYn7zEQBGqK3gcZzv9PFo7662zvsaw?e=caRbFd)
