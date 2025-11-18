@@ -57,12 +57,4 @@ int duplicateCount(String text) {
   }
   return duplicateCount;
 }
-
-void main (){
-  print(rps("Rock","Scissors")); //Player 1 won!
-  print(rps("Scissors","Rock")); //Player 2 won!
-  print(rps("Rock","Rock"));     //Draw!
-  print(getCount("aAbB EedD IiFf OoHh UuLl"));//10 \n 4spaces
-  print(duplicateCount("aaAAbb"));//2
     
-}  
