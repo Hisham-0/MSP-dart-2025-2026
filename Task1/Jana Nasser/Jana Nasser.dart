@@ -1,5 +1,5 @@
 //* Problem 1
-String rps(String p1, String p2) {
+String? rps(String p1, String p2) {
     if(p1==p2){
         return"Draw!";
     }
