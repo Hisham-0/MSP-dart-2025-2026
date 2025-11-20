@@ -5,10 +5,12 @@ String rps(String p1, String p2) {
       p1 == "scissors" && p2 == "paper" ||
       p1 == "paper" && p2 == "rock") {
     return "Player 1 won!";
-    
   } else {
     return "Player 2 won!";
   }
+
+  //! where the Draw! option
+  //* dude 🫠🫠🫠
 }
 
 //* Problem 2

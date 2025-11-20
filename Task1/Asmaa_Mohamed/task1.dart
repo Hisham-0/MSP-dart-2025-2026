@@ -40,8 +40,14 @@ int getCount(String inputStr) {
 int duplicateCount(String text) {
   //! write your code here
   text = text.toLowerCase();
-  List<int> lol = List.filled(26, 0);
+  List<int> lol = List.filled(26, 0); // LOL
   List<int> wow = List.filled(26, 0);
+
+  //* you may use Map (store the char and freq) and For loop to iterate (more efficiency) 🫠🫠🫠
+  //* I can not understand how this logic work 🫠🫠
+  //# in "indivisibility" should return  1 due to only the letter i duplicated more then one .
+  //# the question is to return how many letters are  duplicated more then one .
+
   for (int i = 0; i < text.length; i++) {
     if (text[i].codeUnitAt(0) >= 'a'.codeUnitAt(0) &&
         text[i].codeUnitAt(0) <= 'z'.codeUnitAt(0)) {

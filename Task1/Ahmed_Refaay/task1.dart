@@ -6,9 +6,12 @@ String rps(String p1, String p2) {
     "scissors": "paper",
     "paper": "rock",
   };
-  if (p1 == p2) return "Draw!";
-  else if(Wins[p1] == p2) return "Player 1 won!";
-  else return "Player 2 won!";
+  if (p1 == p2)
+    return "Draw!";
+  else if (Wins[p1] == p2)
+    return "Player 1 won!";
+  else
+    return "Player 2 won!";
 }
 
 //* Problem 2
@@ -45,6 +48,8 @@ int getCount(String inputStr) {
 //* problem 3 (optional)
 int duplicateCount(String text) {
   //! write your code here
+
+  //* you may use Map (store the char and freq) and For loop to iterate on it  (more efficiency)
   text = text.toLowerCase();
   List<String> Duplicated_char = [];
 

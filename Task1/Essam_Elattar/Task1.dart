@@ -16,33 +16,33 @@ int getCount(String inputStr) {
   //! write your code here
   int vowels = 0;
   int spaces = 0;
-  inputStr = inputStr.toLowerCase()
-
-  for (int i = 0; i < inputStr.length; i++){
+  inputStr = inputStr.toLowerCase();
+  //! dude whare is the vowels 🫠🫠🫠🫠🫠🫠🫠🫠
+  for (int i = 0; i < inputStr.length; i++) {
     if (inputStr[i] == 'a' ||
-      inputStr[i] == 'a' ||
-      inputStr[i] == 'a' ||
-      inputStr[i] == 'a' ||
-      inputStr[i] == 'a' ){
-        vowels++;
+        inputStr[i] == 'a' ||
+        inputStr[i] == 'a' ||
+        inputStr[i] == 'a' ||
+        inputStr[i] == 'a') {
+      vowels++;
     }
-
-    if(inputStr[i] == ''){
+    //! that is a empty string Not a space .
+    //# should be like this -> ' ' NOT -> ''
+    if (inputStr[i] == '') {
       spaces++;
     }
 
     print(vowels);
 
-    if(spaces > 1){
+    if (spaces > 1) {
       print("$spaces spaces");
-    }
-    else if (spaces == 1){
+    } else if (spaces == 1) {
       print("$spaces space");
-    }
-    else
-    print("No Spaces In The String");
+    } else
+      print("No Spaces In The String");
   }
-
+  //! you should return the vowels count
+  //# return vowels;
   return -1;
 }
 
