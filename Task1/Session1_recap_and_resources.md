@@ -74,12 +74,6 @@ a = 10; // valid
 a = 'Some String'; // valid
 ```
 
-Also Note that, if we didn't declare the data type or use var/dynamic, then dart will treat it as dynamic by default
-```
-a = 10; // treated as dynamic
-a = 'Some String'; // valid
-```
-
 ## Printing
 ```
 print('Hello, world!');  // The most simple way of printing and adding new line after the print
